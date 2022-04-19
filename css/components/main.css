@@ -17,8 +17,6 @@ main .container section {
   row-gap: 1.5rem;
 }
 main .container section h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
   margin: 0 auto;
 }
 main .container section h2 span {
