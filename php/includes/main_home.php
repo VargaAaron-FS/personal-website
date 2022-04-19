@@ -48,7 +48,7 @@
         <li><a href="#">Terminal</a></li>
         <li><a href="#">GitHub Desktop</a></li>
         <li><a href="#">MAMP</a></li>
-        <li><a href="#">Atom</a></li>
+        <li><a href="#">VS Code</a></li>
         <li><a href="#">CodeKit</a></li>
         <li><a href="#">MySQL Workbench</a></li>
         <li><a href="#">Postman</a></li>

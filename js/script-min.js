@@ -1,1 +1,0 @@
-let me=2;console.log(me),2!=me&&console.log("OOps!");
