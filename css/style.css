@@ -118,7 +118,7 @@ header .container .profile_pic {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
-  border: 2px solid #D82148;
+  border: 3px solid #D82148;
   margin: 0 auto;
 }
 header .container a {
@@ -150,7 +150,6 @@ nav.header_nav {
   background: #000;
 }
 nav.header_nav .container {
-  display: flex;
   flex-direction: row;
   align-items: center;
   column-gap: 2rem;
@@ -166,11 +165,57 @@ nav.header_nav .container a:hover {
 main {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 2rem 1rem;
   font-family: 'Poppins', sans-serif;
   color: #111;
   background: #fff;
   flex-grow: 1;
+}
+main .container {
+  flex-direction: column;
+  row-gap: 3rem;
+}
+main .container section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+main .container section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 auto;
+}
+main .container section h2 span {
+  color: #D82148;
+}
+main .container section ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  list-style: none;
+  margin: 0 auto;
+}
+main .container section ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #D82148;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+main .container section .recent-projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .container section .recent-blogs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 /* Footer styles */
 footer {
@@ -202,6 +247,18 @@ footer p {
   color: #eee;
   margin-top: 1rem;
 }
+/* Button Styles */
+button.primary_button {
+  color: #fff;
+  padding: 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  background: #D82148;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
 /* Global Styles */
 html {
   font-family: 'Poppins', sans-serif;
@@ -210,4 +267,20 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+main a {
+  text-decoration: underline;
+  color: #111;
+}
+main a:hover {
+  color: #D82148;
+}
+.container {
+  display: flex;
+  max-width: 640px;
+  margin: 0 auto;
+}
+p {
+  line-height: 1.75rem;
+  font-size: 1rem;
 }

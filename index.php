@@ -22,13 +22,13 @@
   <body>
     <script> // Empty for bug fix </script>
     <noscript>You need to enable JavaScript to interact with this page.</noscript>
+    <!-- Header -->
     <?php include "./php/includes/header.php" ?>
+    <!-- Header Nav -->
     <?php include "./php/includes/header_nav.php" ?>
-    <main>
-      <div class="container">
-        Main content area.
-      </div>
-    </main>
+    <!-- Main Home Page Content -->
+    <?php include "./php/includes/main_home.php" ?>
+    <!-- Footer -->
     <?php include "./php/includes/footer.php" ?>
   </body>
   <script type="text/javascript" src="./js/script.js" defer></script>
