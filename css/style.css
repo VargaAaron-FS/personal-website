@@ -125,8 +125,6 @@ header .container a {
   text-decoration: none;
 }
 header .container a h1 {
-  font-size: 2.75rem;
-  font-weight: 700;
   text-align: center;
   color: #D82148;
   margin-top: 0.25rem;
@@ -181,8 +179,6 @@ main .container section {
   row-gap: 1.5rem;
 }
 main .container section h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
   margin: 0 auto;
 }
 main .container section h2 span {
@@ -279,6 +275,18 @@ main a:hover {
   display: flex;
   max-width: 640px;
   margin: 0 auto;
+}
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 p {
   line-height: 1.75rem;
