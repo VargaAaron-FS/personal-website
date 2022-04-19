@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: #000;
+}
+footer.container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: center;
+}
+.footer-icons-wrapper a:hover i {
+  color: #D82148;
+}
+footer i {
+  color: #eee;
+  font-size: 1.5rem;
+}
+footer p {
+  color: #eee;
+  margin-top: 1rem;
+}
+footer P:nth-of-type(2) {
+  margin-top: 0.5rem;
+}

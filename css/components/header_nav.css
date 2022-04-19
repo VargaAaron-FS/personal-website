@@ -1,0 +1,21 @@
+nav.header_nav {
+  padding: 1.5rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #000;
+}
+nav.header_nav .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 2rem;
+}
+nav.header_nav a {
+  text-decoration: none;
+  color: #eee;
+}
+nav.header_nav a:hover {
+  color: #D82148;
+}

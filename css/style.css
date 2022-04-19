@@ -1,0 +1,213 @@
+/* Red Hat Mono font family */
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLE_LHvQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWL9PXHvQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3I-7E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQbrP-7E.ttf) format('truetype');
+}
+/* Poppins font family */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiGyp8kv8JHgFVrJJLedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmy15lEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLm81xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLBT5V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWLE_LHvQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVye7nDnA2uf2zVvFAhhzEsUXfZc_vk45Kb3VJWL9PXHvQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQV3I-7E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatmono/v7/jVyY7nDnA2uf2zVvFAhhzEs-VMSjJpBTfgjwQbrP-7E.ttf) format('truetype');
+}
+/* Header styles */
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #D82148;
+  background: #000;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+}
+header .container .profile_pic {
+  background-image: url("../images/profile_pic.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 2px solid #D82148;
+  margin: 0 auto;
+}
+header .container a {
+  text-decoration: none;
+}
+header .container a h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: #D82148;
+  margin-top: 0.25rem;
+  text-decoration: underline;
+}
+header .container h2 {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #eee;
+  font-weight: 400;
+  text-align: center;
+}
+/* Header Nav styles */
+nav.header_nav {
+  padding: 1.5rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #000;
+}
+nav.header_nav .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 2rem;
+}
+nav.header_nav .container a {
+  text-decoration: none;
+  color: #eee;
+}
+nav.header_nav .container a:hover {
+  color: #D82148;
+}
+/* Main content area styles */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  background: #fff;
+  flex-grow: 1;
+}
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: #000;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .footer-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: center;
+}
+footer .container .footer-icons-wrapper i {
+  color: #eee;
+  font-size: 1.5rem;
+}
+footer .container .footer-icons-wrapper i:hover {
+  color: #D82148;
+}
+footer p {
+  color: #eee;
+  margin-top: 1rem;
+}
+/* Global Styles */
+html {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
