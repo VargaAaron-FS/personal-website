@@ -2,7 +2,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   background: #000;
 }
@@ -21,7 +21,7 @@ footer .container .footer-icons-wrapper i {
   font-size: 1.5rem;
 }
 footer .container .footer-icons-wrapper i:hover {
-  color: #D82148;
+  color: #d82148;
 }
 footer p {
   color: #eee;

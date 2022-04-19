@@ -2,7 +2,7 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: center;
-  border-bottom: 2px solid #D82148;
+  border-bottom: 2px solid #d82148;
   background: #000;
 }
 header .container {
@@ -17,7 +17,7 @@ header .container .profile_pic {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
-  border: 3px solid #D82148;
+  border: 3px solid #d82148;
   margin: 0 auto;
 }
 header .container a {
@@ -25,7 +25,7 @@ header .container a {
 }
 header .container a h1 {
   text-align: center;
-  color: #D82148;
+  color: #d82148;
   margin-top: 0.25rem;
   text-decoration: underline;
 }

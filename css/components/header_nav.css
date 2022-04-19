@@ -1,6 +1,6 @@
 nav.header_nav {
   padding: 1.5rem 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,5 +16,5 @@ nav.header_nav .container a {
   color: #eee;
 }
 nav.header_nav .container a:hover {
-  color: #D82148;
+  color: #d82148;
 }
