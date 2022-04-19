@@ -211,9 +211,11 @@ main .container section ul li::before {
 }
 main .container section .recent-projects-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 main .container section .recent-blogs-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 /* Footer styles */
 footer {
@@ -245,6 +247,18 @@ footer p {
   color: #eee;
   margin-top: 1rem;
 }
+/* Button Styles */
+button.primary_button {
+  color: #fff;
+  padding: 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  background: #D82148;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
 /* Global Styles */
 html {
   font-family: 'Poppins', sans-serif;
@@ -253,6 +267,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+main a {
+  text-decoration: underline;
+  color: #111;
+}
+main a:hover {
+  color: #D82148;
 }
 .container {
   display: flex;

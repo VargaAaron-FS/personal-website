@@ -47,7 +47,9 @@ main .container section ul li::before {
 }
 main .container section .recent-projects-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 main .container section .recent-blogs-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
