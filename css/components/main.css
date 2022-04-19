@@ -1,9 +1,53 @@
 main {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 2rem 1rem;
   font-family: 'Poppins', sans-serif;
   color: #111;
   background: #fff;
   flex-grow: 1;
+}
+main .container {
+  flex-direction: column;
+  row-gap: 3rem;
+}
+main .container section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+main .container section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 auto;
+}
+main .container section h2 span {
+  color: #D82148;
+}
+main .container section ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  list-style: none;
+  margin: 0 auto;
+}
+main .container section ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #D82148;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+main .container section .recent-projects-grid {
+  display: grid;
+}
+main .container section .recent-blogs-grid {
+  display: grid;
 }
