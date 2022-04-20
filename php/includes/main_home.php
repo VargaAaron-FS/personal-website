@@ -16,7 +16,7 @@
             <h2><span>#</span> My Stacks <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="flexbox">
                 <div class="flex-item">
-                    <h3>LAMP <span><i class="fa-solid fa-layer-group"></i></span></h3>
+                    <h3><span><i class="fa-solid fa-layer-group"></i></span> LAMP</h3>
                     <ul>
                         <li><a href="#">Linux OS</a></li>
                         <li><a href="#">Apache Web Server</a></li>
@@ -28,7 +28,7 @@
                     </ul>
                 </div>
                 <div class="flex-item">
-                    <h3>MERN <span><i class="fa-solid fa-layer-group"></i></span></h3>
+                    <h3><span><i class="fa-solid fa-layer-group"></i></span> MERN</h3>
                     <ul>
                         <li><a href="#">MongoDB</a></li>
                         <li><a href="#">Express JS</a></li>
@@ -42,31 +42,33 @@
         </section>
         <section>
             <h2><span>#</span> My Tools <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
-            <h3>Design <span><i class="fa-solid fa-compass-drafting"></i></span></h3>
-            <ul>
-                <li><a href="#">Adobe Creative Suite</a>
+            <div class="flexbox">
+                <div class="flex-item">
+                    <h3><span><i class="fa-solid fa-compass-drafting"></i></span> Design</h3>
                     <ul>
-                        <li>Adobe XD</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe After Effects</li>
-                        <li>Adobe Dimensions</li>
-                        <li>Adobe Animate</li>
+                        <li><a href="#">Adobe XD</a></li>
+                        <li><a href="#">Adobe Photoshop</a></li>
+                        <li><a href="#">Adobe Illustrator</a></li>
+                        <li><a href="#">Adobe After Effects</a></li>
+                        <li><a href="#">Adobe Dimensions</a></li>
+                        <li><a href="#">Adobe Animate</a></li>
                     </ul>
-                </li>
-            </ul>
-            <h3>Development <span><i class="fa-solid fa-code"></i></span></h3>
-            <ul>
-                <li><a href="#">Terminal</a></li>
-                <li><a href="#">GitHub Desktop</a></li>
-                <li><a href="#">MAMP</a></li>
-                <li><a href="#">VS Code</a></li>
-                <li><a href="#">CodeKit</a></li>
-                <li><a href="#">MySQL Workbench</a></li>
-                <li><a href="#">Postman</a></li>
-                <li><a href="#">Cross-Browser Testing</a></li>
-                <li><a href="#">Transmit</a></li>
-            </ul>
+                </div>
+                <div class="flex-item">
+                    <h3><span><i class="fa-solid fa-code"></i></span> Development</h3>
+                    <ul>
+                        <li><a href="#">Terminal</a></li>
+                        <li><a href="#">GitHub Desktop</a></li>
+                        <li><a href="#">MAMP</a></li>
+                        <li><a href="#">VS Code</a></li>
+                        <li><a href="#">CodeKit</a></li>
+                        <li><a href="#">MySQL Workbench</a></li>
+                        <li><a href="#">Postman</a></li>
+                        <li><a href="#">Cross-Browser Testing</a></li>
+                        <li><a href="#">Transmit</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section>
             <h2><span>#</span> Recent Projects <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
