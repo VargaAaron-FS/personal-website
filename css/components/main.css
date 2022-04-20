@@ -22,6 +22,23 @@ main .container section h2 {
 main .container section h2 span {
   color: #d82148;
 }
+main .container section .flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .container section .flexbox .flex-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 50%;
+}
+main .container section .flexbox .flex-item span {
+  color: #d82148;
+}
+main .container section .flexbox .flex-item h3 {
+  text-align: center;
+}
 main .container section ul {
   display: flex;
   flex-direction: column;
@@ -40,7 +57,7 @@ main .container section ul li::before {
   /* Needed to add space between the bullet and the text */
   width: 1em;
   /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
+  margin-left: 0;
   /* Also needed for space (tweak if needed) */
 }
 main .container section .recent-projects-grid {
