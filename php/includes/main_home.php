@@ -6,9 +6,8 @@
                 technologies are absolutely necessary.</p>
             <p>I grew up first designing user interfaces in 2002 and later I dove into the development side of things as
                 well.</p>
-            <p>I love the LAMP stack! I also have experience with the MERN stack.</p>
             <p>My favorite coding languages and technologies are HTML, CSS/LESS,
-                JavaScript, PHP, and MySQL.</p>
+                JavaScript, PHP, and MySQL. I love the LAMP stack! I also have experience with the MERN stack.</p>
             <p>I have earned a BA in Digital Media Design and I am currently finishing a BS in Web Development.</p>
             <button class="primary_button">View Resume</button>
         </section>
@@ -103,30 +102,26 @@
             <h2><span>#</span> Recent Blogs <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="recent-blogs-grid">
                 <div class="recent-blogs-grid-item">
-                    <img src="" alt="Project Image">
-                    <h3>Project Title</h3>
-                    <p>Description</p>
+                    <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
+                    <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
                 </div>
                 <div class="recent-blogs-grid-item">
-                    <img src="" alt="Project Image">
-                    <h3>Project Title</h3>
-                    <p>Description</p>
+                    <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
+                    <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
                 </div>
                 <div class="recent-blogs-grid-item">
-                    <img src="" alt="Project Image">
-                    <h3>Project Title</h3>
-                    <p>Description</p>
+                    <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
+                    <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
                 </div>
                 <div class="recent-blogs-grid-item">
-                    <img src="" alt="Project Image">
-                    <h3>Project Title</h3>
-                    <p>Description</p>
+                    <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
+                    <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
                 </div>
             </div>
             <button class="primary_button">View All Blogs</button>
         </section>
         <section>
-            <h2><span>#</span> Hire Me <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
+            <h2><span>#</span> Contact Me <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <button class="primary_button">Send Message</button>
         </section>
     </div>

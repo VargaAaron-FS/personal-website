@@ -76,6 +76,11 @@ main .container section .recent-projects-grid {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+@media only screen and (max-width: 639px) {
+  main .container section .recent-projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
 main .container section .recent-projects-grid a {
   text-decoration: none;
 }
@@ -115,12 +120,16 @@ main .container section .recent-blogs-grid {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+@media only screen and (max-width: 639px) {
+  main .container section .recent-blogs-grid {
+    grid-template-columns: 1fr;
+  }
+}
 main .container section .recent-blogs-grid .recent-blogs-grid-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 main .container section .recent-blogs-grid .recent-blogs-grid-item img {
   max-width: 100%;
