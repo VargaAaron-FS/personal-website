@@ -15,7 +15,7 @@
             <h2><span>#</span> My Stacks <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="flexbox">
                 <div class="flex-item">
-                    <h3><span><i class="fa-solid fa-layer-group"></i></span> LAMP</h3>
+                    <h3><span><i class="fa-solid fa-layer-group"></i></span>LAMP</h3>
                     <ul>
                         <li><a href="https://www.linux.org/" target="_blank">Linux</a></li>
                         <li><a href="https://httpd.apache.org/" target="_blank">Apache</a></li>
@@ -30,7 +30,7 @@
                     </ul>
                 </div>
                 <div class="flex-item">
-                    <h3><span><i class="fa-solid fa-layer-group"></i></span> MERN</h3>
+                    <h3><span><i class="fa-solid fa-layer-group"></i></span>MERN</h3>
                     <ul>
                         <li><a href="https://www.mongodb.com/" target="_blank">MongoDB</a></li>
                         <li><a href="https://expressjs.com/" target="_blank">Express JS</a></li>
