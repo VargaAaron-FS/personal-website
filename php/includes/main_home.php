@@ -18,9 +18,9 @@
                 <div class="flex-item">
                     <h3><span><i class="fa-solid fa-layer-group"></i></span> LAMP</h3>
                     <ul>
-                        <li><a href="#">Linux OS</a></li>
-                        <li><a href="#">Apache Web Server</a></li>
-                        <li><a href="#">MySQL Database</a></li>
+                        <li><a href="#">Linux</a></li>
+                        <li><a href="#">Apache</a></li>
+                        <li><a href="#">MySQL</a></li>
                         <li><a href="#">PHP</a></li>
                         <li><a href="#">JavaScript</a></li>
                         <li><a href="#">CSS</a>/<a href="#">LESS</a></li>
@@ -73,16 +73,24 @@
             <h2><span>#</span> Recent Projects <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="recent-projects-grid">
                 <div class="recent-projects-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
                 <div class="recent-projects-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
                 <div class="recent-projects-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
                 <div class="recent-projects-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
             </div>
             <button class="primary_button">View All Projects</button>
@@ -91,16 +99,24 @@
             <h2><span>#</span> Recent Blogs <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="recent-blogs-grid">
                 <div class="recent-blogs-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
                 <div class="recent-blogs-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
                 <div class="recent-blogs-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
                 <div class="recent-blogs-grid-item">
-                    Item
+                    <img src="" alt="Project Image">
+                    <h3>Project Title</h3>
+                    <p>Description</p>
                 </div>
             </div>
             <button class="primary_button">View All Blogs</button>

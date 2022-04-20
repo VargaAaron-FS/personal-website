@@ -233,10 +233,26 @@ main .container section ul li::before {
 main .container section .recent-projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+main .container section .recent-projects-grid .recent-projects-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 main .container section .recent-blogs-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+main .container section .recent-blogs-grid .recent-blogs-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 /* Footer styles */
 footer {
