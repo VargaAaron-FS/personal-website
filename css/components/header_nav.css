@@ -12,7 +12,7 @@ nav.header_nav .container {
   column-gap: 2rem;
 }
 nav.header_nav .container a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #eee;
 }
 nav.header_nav .container a:hover {

@@ -153,7 +153,7 @@ nav.header_nav .container {
   column-gap: 2rem;
 }
 nav.header_nav .container a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #eee;
 }
 nav.header_nav .container a:hover {
@@ -199,6 +199,9 @@ main .container section .flexbox .flex-item {
 main .container section .flexbox .flex-item span {
   color: #d82148;
 }
+main .container section .flexbox .flex-item span i {
+  margin-right: 0.5rem;
+}
 main .container section .flexbox .flex-item h3 {
   text-align: center;
 }
@@ -235,12 +238,39 @@ main .container section .recent-projects-grid {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+main .container section .recent-projects-grid a {
+  text-decoration: none;
+}
 main .container section .recent-projects-grid .recent-projects-grid-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+main .container section .recent-projects-grid .recent-projects-grid-item img {
+  max-width: 100%;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+main .container section .recent-projects-grid .recent-projects-grid-item h3 {
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: calc(100% - 2rem);
   padding: 1rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+main .container section .recent-projects-grid .recent-projects-grid-item h3 span {
+  background: #d82148;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: -1rem -1rem -1rem 1rem;
+  padding: 1rem;
+  border-radius: 0 0 0.25rem 0;
+  height: 100%;
 }
 main .container section .recent-blogs-grid {
   display: grid;
@@ -253,6 +283,31 @@ main .container section .recent-blogs-grid .recent-blogs-grid-item {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+}
+main .container section .recent-blogs-grid .recent-blogs-grid-item img {
+  max-width: 100%;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+main .container section .recent-blogs-grid .recent-blogs-grid-item h3 {
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+main .container section .recent-blogs-grid .recent-blogs-grid-item h3 span {
+  background: #d82148;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: -1rem -1rem -1rem 1rem;
+  padding: 1rem;
+  border-radius: 0 0 0.25rem 0;
+  height: 100%;
 }
 /* Footer styles */
 footer {
@@ -288,11 +343,11 @@ footer p {
 button.primary_button {
   color: #fff;
   padding: 1rem 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   font-weight: 700;
   border: none;
-  background: #D82148;
+  background: #d82148;
   font-size: 1rem;
   border-radius: 0.25rem;
 }
