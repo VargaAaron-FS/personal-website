@@ -58,13 +58,12 @@
                     <h3><span><i class="fa-solid fa-code"></i></span> Development</h3>
                     <ul>
                         <li><a href="#">Terminal</a></li>
-                        <li><a href="#">GitHub Desktop</a></li>
+                        <li><a href="#">Git</a>/<a href="#">GitHub</a></li>
                         <li><a href="#">MAMP</a></li>
                         <li><a href="#">VS Code</a></li>
                         <li><a href="#">CodeKit</a></li>
                         <li><a href="#">MySQL Workbench</a></li>
                         <li><a href="#">Postman</a></li>
-                        <li><a href="#">Cross-Browser Testing</a></li>
                         <li><a href="#">Transmit</a></li>
                     </ul>
                 </div>

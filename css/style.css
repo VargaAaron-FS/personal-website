@@ -188,6 +188,7 @@ main .container section .flexbox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  column-gap: 1rem;
 }
 main .container section .flexbox .flex-item {
   display: flex;
@@ -200,6 +201,13 @@ main .container section .flexbox .flex-item span {
 }
 main .container section .flexbox .flex-item h3 {
   text-align: center;
+}
+main .container section .flexbox .flex-item:nth-of-type(1) h3,
+main .container section .flexbox .flex-item:nth-of-type(2) h3 {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
 }
 main .container section ul {
   display: flex;
@@ -274,7 +282,7 @@ button.primary_button {
 }
 /* Global Styles */
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   display: flex;
@@ -286,7 +294,7 @@ main a {
   color: #111;
 }
 main a:hover {
-  color: #D82148;
+  color: #d82148;
 }
 .container {
   display: flex;
@@ -302,7 +310,7 @@ h2 {
   font-weight: 700;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 p {
