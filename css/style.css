@@ -160,7 +160,7 @@ nav.header_nav .container a:hover {
   color: #d82148;
 }
 /* Main content area styles */
-main {
+main.home {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
@@ -169,68 +169,68 @@ main {
   background: #fff;
   flex-grow: 1;
 }
-main .container {
+main.home .container {
   flex-direction: column;
   row-gap: 3rem;
 }
-main .container section {
+main.home .container section {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
 }
-main .container section h2 {
+main.home .container section h2 {
   margin: 0 auto;
 }
-main .container section h2 span {
+main.home .container section h2 span {
   color: #d82148;
 }
-main .container section .flexbox {
+main.home .container section .flexbox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   column-gap: 1rem;
 }
 @media only screen and (max-width: 639px) {
-  main .container section .flexbox {
+  main.home .container section .flexbox {
     flex-direction: column;
     row-gap: 1rem;
   }
 }
-main .container section .flexbox .flex-item {
+main.home .container section .flexbox .flex-item {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
   width: 50%;
 }
 @media only screen and (max-width: 639px) {
-  main .container section .flexbox .flex-item {
+  main.home .container section .flexbox .flex-item {
     width: 100%;
   }
 }
-main .container section .flexbox .flex-item span {
+main.home .container section .flexbox .flex-item span {
   color: #d82148;
 }
-main .container section .flexbox .flex-item span i {
+main.home .container section .flexbox .flex-item span i {
   margin-right: 0.5rem;
 }
-main .container section .flexbox .flex-item h3 {
+main.home .container section .flexbox .flex-item h3 {
   text-align: center;
 }
-main .container section .flexbox .flex-item:nth-of-type(1) h3,
-main .container section .flexbox .flex-item:nth-of-type(2) h3 {
+main.home .container section .flexbox .flex-item:nth-of-type(1) h3,
+main.home .container section .flexbox .flex-item:nth-of-type(2) h3 {
   background: #000;
   color: #fff;
   padding: 1rem;
   border-radius: 0.25rem;
 }
-main .container section ul {
+main.home .container section ul {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
   list-style: none;
   margin: 0 auto;
 }
-main .container section ul li::before {
+main.home .container section ul li::before {
   content: "\2022";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #d82148;
@@ -244,30 +244,30 @@ main .container section ul li::before {
   margin-left: 0;
   /* Also needed for space (tweak if needed) */
 }
-main .container section .recent-projects-grid {
+main.home .container section .recent-projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 @media only screen and (max-width: 639px) {
-  main .container section .recent-projects-grid {
+  main.home .container section .recent-projects-grid {
     grid-template-columns: 1fr;
   }
 }
-main .container section .recent-projects-grid a {
+main.home .container section .recent-projects-grid a {
   text-decoration: none;
 }
-main .container section .recent-projects-grid .recent-projects-grid-item {
+main.home .container section .recent-projects-grid .recent-projects-grid-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .container section .recent-projects-grid .recent-projects-grid-item img {
+main.home .container section .recent-projects-grid .recent-projects-grid-item img {
   max-width: 100%;
   border-radius: 0.25rem 0.25rem 0 0;
 }
-main .container section .recent-projects-grid .recent-projects-grid-item h3 {
+main.home .container section .recent-projects-grid .recent-projects-grid-item h3 {
   color: #fff;
   background: #000;
   display: flex;
@@ -278,7 +278,7 @@ main .container section .recent-projects-grid .recent-projects-grid-item h3 {
   padding: 1rem;
   border-radius: 0 0 0.25rem 0.25rem;
 }
-main .container section .recent-projects-grid .recent-projects-grid-item h3 span {
+main.home .container section .recent-projects-grid .recent-projects-grid-item h3 span {
   background: #d82148;
   display: flex;
   align-items: center;
@@ -288,27 +288,30 @@ main .container section .recent-projects-grid .recent-projects-grid-item h3 span
   border-radius: 0 0 0.25rem 0;
   height: 100%;
 }
-main .container section .recent-blogs-grid {
+main.home .container section .recent-blogs-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 @media only screen and (max-width: 639px) {
-  main .container section .recent-blogs-grid {
+  main.home .container section .recent-blogs-grid {
     grid-template-columns: 1fr;
   }
 }
-main .container section .recent-blogs-grid .recent-blogs-grid-item {
+main.home .container section .recent-blogs-grid a {
+  text-decoration: none;
+}
+main.home .container section .recent-blogs-grid .recent-blogs-grid-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .container section .recent-blogs-grid .recent-blogs-grid-item img {
+main.home .container section .recent-blogs-grid .recent-blogs-grid-item img {
   max-width: 100%;
   border-radius: 0.25rem 0.25rem 0 0;
 }
-main .container section .recent-blogs-grid .recent-blogs-grid-item h3 {
+main.home .container section .recent-blogs-grid .recent-blogs-grid-item h3 {
   color: #fff;
   background: #000;
   display: flex;
@@ -319,7 +322,7 @@ main .container section .recent-blogs-grid .recent-blogs-grid-item h3 {
   padding: 1rem;
   border-radius: 0 0 0.25rem 0.25rem;
 }
-main .container section .recent-blogs-grid .recent-blogs-grid-item h3 span {
+main.home .container section .recent-blogs-grid .recent-blogs-grid-item h3 span {
   background: #d82148;
   display: flex;
   align-items: center;

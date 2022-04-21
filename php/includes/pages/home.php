@@ -1,4 +1,22 @@
-<main>
+<?php
+// Connect to database
+$conn = mysqli_connect('localhost', 'iamaaronvarga', 'Password12345', 'iamaaronvarga_db');
+// Check connection
+if (!$conn) {
+    echo 'Connection error: ' . mysqli_connect_error();
+}
+// Write query for all projects
+$sql = 'SELECT title, url, img_url, id FROM projects ORDER BY created';
+// Make query and get result
+$result = mysqli_query($conn, $sql);
+// Fetch resulting rows as an array
+$projects = mysqli_fetch_all($result, MYSQLI_ASSOC);
+// Free result from memory
+mysqli_free_result($result);
+// Close connection
+mysqli_close($conn);
+?>
+<main class="home">
     <div class="container">
         <section>
             <h2><span>#</span> About Me <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
@@ -79,44 +97,38 @@
         <section>
             <h2><span>#</span> Recent Projects <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="recent-projects-grid">
-                <a href="#" class="recent-projects-grid-item">
-                    <img src="./images/portfolio-project-thumbnail.jpg" alt="Project Image">
-                    <h3>Varga Lujos<span><i class="fa-solid fa-rocket"></i></span></h3>
+                <?php foreach ($projects as $project) { ?>
+                <a href="<?php echo htmlspecialchars($project['url']) ?>" class="recent-projects-grid-item">
+                    <img src="<?php echo htmlspecialchars($project['img_url']); ?>"
+                        alt="<?php echo htmlspecialchars($project['title']); ?>">
+                    <h3><?php echo htmlspecialchars($project['title']); ?><span><i
+                                class="fa-solid fa-rocket"></i></span>
+                    </h3>
                 </a>
-                <a href="#" class="recent-projects-grid-item">
-                    <img src="./images/portfolio-project-thumbnail.jpg" alt="Project Image">
-                    <h3>Project Title<span><i class="fa-solid fa-rocket"></i></span></h3>
-                </a>
-                <a href="#" class="recent-projects-grid-item">
-                    <img src="./images/portfolio-project-thumbnail.jpg" alt="Project Image">
-                    <h3>Project Title<span><i class="fa-solid fa-rocket"></i></span></h3>
-                </a>
-                <a href="#" class="recent-projects-grid-item">
-                    <img src="./images/portfolio-project-thumbnail.jpg" alt="Project Image">
-                    <h3>Project Title<span><i class="fa-solid fa-rocket"></i></span></h3>
-                </a>
+                <?php
+}?>
             </div>
             <button class="primary_button">View All Projects</button>
         </section>
         <section>
             <h2><span>#</span> Recent Blogs <span><i class="fa-solid fa-arrow-turn-down"></i></span></h2>
             <div class="recent-blogs-grid">
-                <div class="recent-blogs-grid-item">
+                <a href="#" class="recent-blogs-grid-item">
                     <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
                     <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
-                </div>
-                <div class="recent-blogs-grid-item">
+                </a>
+                <a href="#" class="recent-blogs-grid-item">
                     <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
                     <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
-                </div>
-                <div class="recent-blogs-grid-item">
+                </a>
+                <a href="#" class="recent-blogs-grid-item">
                     <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
                     <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
-                </div>
-                <div class="recent-blogs-grid-item">
+                </a>
+                <a href="#" class="recent-blogs-grid-item">
                     <img src="./images/blog-post-thumbnail.jpg" alt="Blog Post Thumbnail">
                     <h3>Blog Title<span><i class="fa-solid fa-newspaper"></i></span></h3>
-                </div>
+                </a>
             </div>
             <button class="primary_button">View All Blogs</button>
         </section>

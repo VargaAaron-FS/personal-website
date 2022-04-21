@@ -26,13 +26,13 @@
     </script>
     <noscript>You need to enable JavaScript to interact with this page.</noscript>
     <!-- Header -->
-    <?php include "./php/includes/header.php" ?>
+    <?php include "./php/includes/components/header.php" ?>
     <!-- Header Nav -->
-    <?php include "./php/includes/header_nav.php" ?>
+    <?php include "./php/includes/components/header_nav.php" ?>
     <!-- Main Home Page Content -->
-    <?php include "./php/includes/main_home.php" ?>
+    <?php include "./php/includes/pages/home.php" ?>
     <!-- Footer -->
-    <?php include "./php/includes/footer.php" ?>
+    <?php include "./php/includes/components/footer.php" ?>
 </body>
 <script type="text/javascript" src="./js/script.js" defer></script>
 
